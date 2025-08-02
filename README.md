@@ -69,7 +69,7 @@ bash
 ```
 cd ../eventease-frontend
 npm install
-npm start
+npm run dev
 ```
 ## API Documentation
 - [Postman Collection](./EventEase_API_Collection.json) 
