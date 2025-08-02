@@ -1,0 +1,12 @@
+node_modules/
+.env
+*.log
+dist/
+build/
+
+eventease-frontend/node_modules/
+eventease-frontend/.env
+eventease-backend/node_modules/
+eventease-backend/.env
+
+
