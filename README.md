@@ -71,6 +71,9 @@ cd ../eventease-frontend
 npm install
 npm run dev
 ```
+4. Known Issues/tips
+If the Interface doesn't reflect recent changes (like login/logout) , please manually reload the page.
+
 ## API Documentation
 - [Postman Collection](./EventEase_API_Collection.json) 
 
