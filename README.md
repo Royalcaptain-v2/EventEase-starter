@@ -72,6 +72,6 @@ npm install
 npm start
 ```
 ## API Documentation
-- [Postman Collection](./postman/EventEase_API_Collection.json) 
+- [Postman Collection](./EventEase_API_Collection.json) 
 
 
