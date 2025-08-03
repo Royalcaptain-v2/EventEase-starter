@@ -71,9 +71,16 @@ cd ../eventease-frontend
 npm install
 npm run dev
 ```
-4. Known Issues/tips :
-If the Interface doesn't reflect recent changes (like login/logout) , please manually reload the page.
-
+5. Known Issues/tips :
+- Issue : If the Interface doesn't reflect recent changes (like login/logout) , please manually reload the page.
+- Issue : Popup message showing Access denied two times when changes are done in Admin mode and redirected towards dashboard. Ignore this popup as the changes will be surely made.
+  
+# Getting Admin Access
+- Open your MySQL client (eg.Workbench).
+- Run the following SQL query
+```
+UPDATE users SET role ='admin' WHERE email='abc@gmail.com'
+```
 ## API Documentation
 - [Postman Collection](./EventEase_API_Collection.json) 
 
